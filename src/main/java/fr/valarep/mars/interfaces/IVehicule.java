@@ -9,4 +9,6 @@ public interface IVehicule {
 
     int getX();
     int getY();
+
+    String getName();
 }

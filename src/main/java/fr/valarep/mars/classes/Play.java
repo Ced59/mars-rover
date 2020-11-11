@@ -35,7 +35,7 @@ public class Play {
     }
 
     public void display(){
-        System.out.println("Le rover est arrivé en position : (" + vehicule.getX() + " ; " + vehicule.getY() + ")");
+        System.out.println("Le véhicule "+ vehicule.getName() +" est arrivé en position : (" + vehicule.getX() + " ; " + vehicule.getY() + ")");
     }
 
     public IVehicule getVehicule() {
